@@ -210,7 +210,7 @@ def main():
                         all_predictions[model_name] = prediction
                         
                         # Display prediction
-                        st.markdown(f"<div class='prediction-result' style='background-color: #e6f3ff;'>Predicted Insurance Cost: ${prediction:.2f}</div>", unsafe_allow_html=True)
+                        st.markdown(f"<div class='prediction-result' style='background-color: #0066cc;'>Predicted Insurance Cost: ${prediction:.2f}</div>", unsafe_allow_html=True)
                         
                         # Evaluate model
                         metrics = evaluate_model(model, X_test, y_test)
