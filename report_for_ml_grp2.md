@@ -117,11 +117,3 @@ Member 3       Ankit Dey(58)
 Member 4       Ritam Ghosh(60)
 Member 5       Maitreya Chakraborty (61)
 ---
-
- 📎 References
-
-- [Machine Learning for Credit Risk Modeling - ResearchGate](https://www.researchgate.net/publication/335412745_Machine_Learning_for_Credit_Risk_Modeling)
-- [Loan Default Prediction using ANN - GitHub](https://github.com/rajneeshvsht/Loan-Default-Prediction-using-Artificial-Neural-Networks)
-- [Credit Default Prediction using Deep Learning - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S2666827023000695)
-
-
