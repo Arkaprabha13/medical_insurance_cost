@@ -1,13 +1,6 @@
-Got it! Here's a professional `README.md` file for your GitHub repository. It incorporates the link to your GitHub repo and provides an overview of the project, installation instructions, and usage guidelines.
+ 🏦 Bank Loan Default Predictor
 
-You can copy and paste this into your `README.md` file for your GitHub project.
-
----
-
-```markdown
-# 🏦 Bank Loan Default Predictor
-
-## 📚 Overview
+ 📚 Overview
 
 The **Bank Loan Default Predictor** is a machine learning project that predicts the likelihood of a borrower defaulting on a loan. The project uses deep learning models, such as Artificial Neural Networks (ANN) and Multi-layer Perceptron (MLP), to analyze borrower details and loan information for smarter lending decisions.
 
@@ -17,13 +10,13 @@ This repository contains the code, model training, and evaluation results for lo
 
 ---
 
-## 🔎 Problem Statement
+ 🔎 Problem Statement
 
 Banks and financial institutions need to assess the risk of loan default before approval. The **Bank Loan Default Predictor** utilizes deep learning techniques to predict the probability of a borrower defaulting, providing valuable insights for lenders to make informed decisions.
 
 ---
 
-## ✨ Features
+ ✨ Features
 
 - Predicts loan default probability using ANN and MLP models.
 - Includes preprocessing of borrower data (such as age, income, credit score, etc.) and loan details.
@@ -31,7 +24,7 @@ Banks and financial institutions need to assess the risk of loan default before 
 
 ---
 
-## 📊 Model Performance
+ 📊 Model Performance
 
 - **ANN:** Achieved high performance with an accuracy of ~88.8% and AUC of 0.758.
 - **MLP:** Similar performance to ANN with AUC of 0.759.
@@ -40,29 +33,29 @@ The models show good convergence and minimal overfitting, making them reliable f
 
 ---
 
-## 🚀 How to Run
+ 🚀 How to Run
 
-### 1. Clone the Repository
+ 1. Clone the Repository
 
 ```bash
 git clone https://github.com/scorpion-123/bank-loan-default-predictor.git
 cd bank-loan-default-predictor
 ```
 
-### 2. Set Up the Virtual Environment
+ 2. Set Up the Virtual Environment
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate   On Windows: venv\Scripts\activate
 ```
 
-### 3. Install Dependencies
+ 3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Run the Application
+ 4. Run the Application
 
 ```bash
 streamlit run app.py
@@ -70,7 +63,7 @@ streamlit run app.py
 
 ---
 
-## 🛠️ Technologies Used
+ 🛠️ Technologies Used
 
 - **Python 3.8+**
 - **PyTorch** (for deep learning models: ANN, MLP)
@@ -81,7 +74,7 @@ streamlit run app.py
 
 ---
 
-## 📈 Results
+ 📈 Results
 
 | Model          | AUC    | Accuracy | True Negatives | True Positives |
 |----------------|--------|----------|----------------|----------------|
@@ -90,7 +83,7 @@ streamlit run app.py
 
 ---
 
-## 🔮 Future Work
+ 🔮 Future Work
 
 - Enhance model performance with more advanced techniques (e.g., XGBoost, Random Forest).
 - Integrate explainable AI techniques (SHAP, LIME) for model transparency.
@@ -98,7 +91,7 @@ streamlit run app.py
 
 ---
 
-## 👥 Team Members
+ 👥 Team Members
 
 | Name        | Role                |
 |-------------|---------------------|
@@ -109,7 +102,7 @@ Member 4       Ritam Ghosh(60)
 Member 5       Maitreya Chakraborty (61)
 ---
 
-## 📎 References
+ 📎 References
 
 - [Machine Learning for Credit Risk Modeling - ResearchGate](https://www.researchgate.net/publication/335412745_Machine_Learning_for_Credit_Risk_Modeling)
 - [Loan Default Prediction using ANN - GitHub](https://github.com/rajneeshvsht/Loan-Default-Prediction-using-Artificial-Neural-Networks)
@@ -117,31 +110,15 @@ Member 5       Maitreya Chakraborty (61)
 
 ---
 
-## 📋 License
+ 📋 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-(images/confusion_matrices.png)
-(images/model_training_history.png)
-(images/roc_curves.png)
+(/confusion_matrices.png)
+(/model_training_history.png)
+(/roc_curves.png)
 ```
 
----
-
-### Instructions for your GitHub:
-
-1. **Add the above `README.md` to your project:**
-   - Save this text as `README.md` in your project directory.
-   - Push it to your GitHub repository.
-
-2. **Ensure dependencies are listed in `requirements.txt`:**
-   If you don’t already have a `requirements.txt` file, you can generate it by running the following command in your virtual environment:
-
-   ```bash
-   pip freeze > requirements.txt
-   ```
-
----
 
