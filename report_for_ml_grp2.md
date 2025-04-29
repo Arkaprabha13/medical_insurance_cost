@@ -28,6 +28,22 @@ Banks and financial institutions need to assess the risk of loan default before 
 
 - **ANN:** Achieved high performance with an accuracy of ~88.8% and AUC of 0.758.
 - **MLP:** Similar performance to ANN with AUC of 0.759.
+  
+
+#### Confusion Matrices
+![Confusion Matrices](confusion_matrices.png)
+
+- **ANN:** Achieved high performance with an accuracy of ~88.8% and AUC of 0.758.
+- **MLP:** Similar performance to ANN with AUC of 0.759.
+
+#### ROC Curves
+![ROC Curves](roc_curves.png)
+
+The models show good convergence and minimal overfitting, making them reliable for loan default prediction tasks.
+
+#### Model Training History
+![Model Training History](model_training_history.png)
+
 
 The models show good convergence and minimal overfitting, making them reliable for loan default prediction tasks.
 
@@ -93,8 +109,8 @@ streamlit run app.py
 
  👥 Team Members
 
-| Name        | Role                |
-|-------------|---------------------|
+| Name       
+|-------------|
 Member 1       Md Arham(56)
 Member 2       Arkaprabha Banerjee(57)
 Member 3       Ankit Dey(58)
@@ -108,13 +124,7 @@ Member 5       Maitreya Chakraborty (61)
 - [Loan Default Prediction using ANN - GitHub](https://github.com/rajneeshvsht/Loan-Default-Prediction-using-Artificial-Neural-Networks)
 - [Credit Default Prediction using Deep Learning - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S2666827023000695)
 
----
 
- 📋 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 (/confusion_matrices.png)
 (/model_training_history.png)
