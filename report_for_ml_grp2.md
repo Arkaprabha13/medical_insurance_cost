@@ -125,10 +125,3 @@ Member 5       Maitreya Chakraborty (61)
 - [Credit Default Prediction using Deep Learning - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S2666827023000695)
 
 
-
-(/confusion_matrices.png)
-(/model_training_history.png)
-(/roc_curves.png)
-```
-
-
